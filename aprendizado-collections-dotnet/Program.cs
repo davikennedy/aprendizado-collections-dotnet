@@ -18,3 +18,14 @@ static void Imprimir(string[] aulas)
         Console.WriteLine(aula);
     }
 }
+
+// Localizando índice de uma string, dentro de um array
+Console.WriteLine($"Aula 'Modelando' está no índice: {Array.IndexOf(aulas, aulaModelando)}");
+
+// Métodos de cópia de arrays
+string[] copia = new string[2];
+Array.Copy(aulas, 1, copia, 0, 2);
+Imprimir(copia);
+
+string[] clone = aulas.Clone() as string[];
+Imprimir(clone);
