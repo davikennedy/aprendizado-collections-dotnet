@@ -29,3 +29,13 @@ Imprimir(copia);
 
 string[] clone = aulas.Clone() as string[];
 Imprimir(clone);
+
+// Utilizando IndexOf para localizar um elemento no array
+int tamanhoDoArray = 3;
+string[] frutas = new string[tamanhoDoArray];
+
+frutas[0] = "banana";
+frutas[1] = "laranja";
+frutas[2] = "morango";
+
+Console.WriteLine($"Posição de morango no array de frutas: {Array.IndexOf(frutas, "morango")}");
