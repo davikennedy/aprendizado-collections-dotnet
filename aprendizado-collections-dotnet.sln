@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aprendizado-collections-dotnet", "aprendizado-collections-dotnet\aprendizado-collections-dotnet.csproj", "{C9196770-9014-4A33-920C-6CB6064E4D98}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "aprendizado-collections-dotnet", "aprendizado-collections-dotnet\aprendizado-collections-dotnet.csproj", "{C9196770-9014-4A33-920C-6CB6064E4D98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Listas", "Listas\Listas.csproj", "{C77D805D-0EBC-4B55-AACD-0BCB34093CD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{BC071BC6-B87E-4CD0-9850-BE30DF44E2FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{C9196770-9014-4A33-920C-6CB6064E4D98}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9196770-9014-4A33-920C-6CB6064E4D98}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9196770-9014-4A33-920C-6CB6064E4D98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C77D805D-0EBC-4B55-AACD-0BCB34093CD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C77D805D-0EBC-4B55-AACD-0BCB34093CD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C77D805D-0EBC-4B55-AACD-0BCB34093CD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C77D805D-0EBC-4B55-AACD-0BCB34093CD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC071BC6-B87E-4CD0-9850-BE30DF44E2FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC071BC6-B87E-4CD0-9850-BE30DF44E2FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC071BC6-B87E-4CD0-9850-BE30DF44E2FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC071BC6-B87E-4CD0-9850-BE30DF44E2FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
