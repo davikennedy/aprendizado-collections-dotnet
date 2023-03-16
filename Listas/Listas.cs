@@ -16,6 +16,9 @@ aulas.Add(aulaModelando);
 aulas.Add(aulaSets);
 
 Imprimir(aulas);
+Console.WriteLine($"A primeira aula é: {aulas.First()}");
+Console.WriteLine($"A última aula é: {aulas.Last()}");
+
 
 static void Imprimir(List<string> aulas)
 {
@@ -24,7 +27,5 @@ static void Imprimir(List<string> aulas)
         Console.WriteLine(aula);
     }*/
 
-    aulas.ForEach(aula => Console.WriteLine(aula));
-    Console.WriteLine($"A primeira aula é: {aulas.First()}");
-    Console.WriteLine($"A última aula é: {aulas.Last()}");
+    aulas.ForEach(aula => Console.WriteLine(aula));    
 }
