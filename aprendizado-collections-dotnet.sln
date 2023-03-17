@@ -5,9 +5,11 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "aprendizado-collections-dotnet", "aprendizado-collections-dotnet\aprendizado-collections-dotnet.csproj", "{C9196770-9014-4A33-920C-6CB6064E4D98}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Listas", "Listas\Listas.csproj", "{C77D805D-0EBC-4B55-AACD-0BCB34093CD6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Listas", "Listas\Listas.csproj", "{C77D805D-0EBC-4B55-AACD-0BCB34093CD6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{BC071BC6-B87E-4CD0-9850-BE30DF44E2FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays", "Arrays\Arrays.csproj", "{BC071BC6-B87E-4CD0-9850-BE30DF44E2FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListasDeObjetos", "ListasDeObjetos\ListasDeObjetos.csproj", "{AE71EC20-43B6-45BF-B5C9-1D2089A427FE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{BC071BC6-B87E-4CD0-9850-BE30DF44E2FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC071BC6-B87E-4CD0-9850-BE30DF44E2FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC071BC6-B87E-4CD0-9850-BE30DF44E2FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE71EC20-43B6-45BF-B5C9-1D2089A427FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE71EC20-43B6-45BF-B5C9-1D2089A427FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE71EC20-43B6-45BF-B5C9-1D2089A427FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE71EC20-43B6-45BF-B5C9-1D2089A427FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
