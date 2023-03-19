@@ -16,21 +16,7 @@ public class Curso
     }
     public string Nome { get; set; }
     public string Instrutor { get; set; }
-
-    public int TempoTotal
-    {
-        get
-        {
-            int total = 0;
-
-            foreach (var aula in aulas)
-            {
-                total += aula.Tempo;
-            }
-
-            return total;
-        }
-    }
+    public int TempoTotal => Aulas.Sum(aula => aula.Tempo);
 
     public Curso(string nome, string instrutor)
     {
