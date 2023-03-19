@@ -17,6 +17,9 @@ Imprimir(aulasCopiadas);
 // Totalizando tempo do curso
 Console.WriteLine($"\nTempo total do curso: {cSharpColecoes.TempoTotal} minutos.");
 
+// Obtendo descrição do Curso
+Console.WriteLine(cSharpColecoes);
+
 static void Imprimir(IList<Aula> aulas)
 {
     Console.Clear();

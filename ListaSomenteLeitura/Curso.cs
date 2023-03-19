@@ -29,4 +29,10 @@ public class Curso
     {
         aulas.Add(aula);
     }
+
+    public override string ToString()
+    {
+        Console.Clear();
+        return $"Curso: {Nome} \nTempo: {TempoTotal} minutos \nAulas:\n\t{String.Join(",\n\t", Aulas)}";
+    }
 }
