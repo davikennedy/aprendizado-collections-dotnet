@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays", "Arrays\Arrays.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListasDeObjetos", "ListasDeObjetos\ListasDeObjetos.csproj", "{AE71EC20-43B6-45BF-B5C9-1D2089A427FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListaSomenteLeitura", "ListaSomenteLeitura\ListaSomenteLeitura.csproj", "{2EBD974D-B9DC-4656-B118-C90C20948B12}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListaSomenteLeitura", "ListaSomenteLeitura\ListaSomenteLeitura.csproj", "{2EBD974D-B9DC-4656-B118-C90C20948B12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conjuntos", "Conjuntos\Conjuntos.csproj", "{0F4C7425-B62A-44E3-A120-6255449C6328}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{2EBD974D-B9DC-4656-B118-C90C20948B12}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2EBD974D-B9DC-4656-B118-C90C20948B12}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2EBD974D-B9DC-4656-B118-C90C20948B12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F4C7425-B62A-44E3-A120-6255449C6328}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F4C7425-B62A-44E3-A120-6255449C6328}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F4C7425-B62A-44E3-A120-6255449C6328}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F4C7425-B62A-44E3-A120-6255449C6328}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
