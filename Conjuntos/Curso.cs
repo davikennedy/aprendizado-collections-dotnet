@@ -1,10 +1,17 @@
 ﻿using System.Collections.ObjectModel;
 
-namespace ListaSomenteLeitura;
+namespace Conjuntos;
 
 public class Curso
 {
+    private ISet<Aluno> alunos = new HashSet<Aluno>();
+    public IList<Aluno> Alunos 
+    {
+        get { return new ReadOnlyCollection<Aluno>(alunos.ToList()); }
+    }
+    
     private IList<Aula> aulas;
+    
     public IList<Aula> Aulas
     {
         get { return new ReadOnlyCollection<Aula>(aulas); }
@@ -29,5 +36,10 @@ public class Curso
     {
         Console.Clear();
         return $"Curso: {Nome} \nTempo: {TempoTotal} minutos \nAulas:\n\t{String.Join(",\n\t", Aulas)}";
+    }
+
+    public void Matricular(Aluno aluno)
+    {
+        alunos.Add(aluno);
     }
 }

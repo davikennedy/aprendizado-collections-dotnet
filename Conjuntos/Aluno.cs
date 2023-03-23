@@ -9,12 +9,17 @@ namespace Conjuntos
     public class Aluno
     {
         public string Nome { get; set; }
-        public int numeroMatricula { get; set; }
+        public int Matricula { get; set; }
 
         public Aluno(string nome, int numeroMatricula)
         {
             Nome = nome;
-            this.numeroMatricula = numeroMatricula;
+            Matricula = numeroMatricula;
+        }
+
+        public override string ToString()
+        {
+            return $"Nome: {Nome}\nMatrícula: {Matricula}\n";
         }
     }
 }
