@@ -35,3 +35,6 @@ foreach (var aluno in cSharpColecoes.Alunos)
 {
     Console.WriteLine(aluno);
 }
+
+Console.WriteLine($"O aluno a1 {a1.Nome} está matriculado?");
+Console.WriteLine(cSharpColecoes.EstaMatriculado(a1));

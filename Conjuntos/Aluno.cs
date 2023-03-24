@@ -21,5 +21,11 @@ namespace Conjuntos
         {
             return $"Nome: {Nome}\nMatrícula: {Matricula}\n";
         }
+
+        public override bool Equals(object? obj)
+        {
+            Aluno outro = obj as Aluno;
+            return Nome.Equals(obj.Nome);
+        }
     }
 }

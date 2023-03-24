@@ -42,4 +42,9 @@ public class Curso
     {
         alunos.Add(aluno);
     }
+
+    public bool EstaMatriculado(Aluno aluno)
+    {
+        return alunos.Contains(aluno);
+    }
 }
