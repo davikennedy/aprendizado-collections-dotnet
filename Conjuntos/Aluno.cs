@@ -27,5 +27,10 @@ namespace Conjuntos
             Aluno outro = obj as Aluno;
             return Nome.Equals(outro.Nome);
         }
+
+        public override int GetHashCode()
+        {
+            return Nome.GetHashCode();
+        }
     }
 }
