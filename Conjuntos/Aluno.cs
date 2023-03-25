@@ -25,7 +25,7 @@ namespace Conjuntos
         public override bool Equals(object? obj)
         {
             Aluno outro = obj as Aluno;
-            return Nome.Equals(obj.Nome);
+            return Nome.Equals(outro.Nome);
         }
     }
 }
