@@ -47,4 +47,15 @@ public class Curso
     {
         return alunos.Contains(aluno);
     }
+
+    public Aluno BuscarMatriculado(int numeroMatricula)
+    {
+        foreach (var aluno in alunos)
+        {
+            if (aluno.Matricula == numeroMatricula)
+                return aluno;
+        }
+
+        throw new Exception($"Matrícula {numeroMatricula} não encontrada.");
+    }
 }

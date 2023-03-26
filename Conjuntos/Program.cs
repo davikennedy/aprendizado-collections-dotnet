@@ -38,3 +38,6 @@ foreach (var aluno in cSharpColecoes.Alunos)
 
 Console.WriteLine($"O aluno a1 {a1.Nome} está matriculado?");
 Console.WriteLine(cSharpColecoes.EstaMatriculado(a1));
+
+var alunoMatriculado = cSharpColecoes.BuscarMatriculado(5117);
+Console.WriteLine(alunoMatriculado);
