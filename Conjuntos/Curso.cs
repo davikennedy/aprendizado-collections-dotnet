@@ -4,7 +4,10 @@ namespace Conjuntos;
 
 public class Curso
 {
+    private IDictionary<int, Aluno> dicionarioAlunos = new Dictionary<int, Aluno>();
+
     private ISet<Aluno> alunos = new HashSet<Aluno>();
+    
     public IList<Aluno> Alunos 
     {
         get { return new ReadOnlyCollection<Aluno>(alunos.ToList()); }
@@ -41,6 +44,7 @@ public class Curso
     public void Matricular(Aluno aluno)
     {
         alunos.Add(aluno);
+        dicionarioAlunos.Add(aluno.Matricula, aluno);
     }
 
     public bool EstaMatriculado(Aluno aluno)
@@ -50,12 +54,9 @@ public class Curso
 
     public Aluno BuscarMatriculado(int numeroMatricula)
     {
-        foreach (var aluno in alunos)
-        {
-            if (aluno.Matricula == numeroMatricula)
-                return aluno;
-        }
+        Aluno aluno;
+        dicionarioAlunos.TryGetValue(numeroMatricula, out aluno);
 
-        throw new Exception($"Matrícula {numeroMatricula} não encontrada.");
+        return aluno;
     }
 }
