@@ -59,4 +59,9 @@ public class Curso
 
         return aluno;
     }
+
+    public void SubstituirAluno(Aluno aluno)
+    {
+        dicionarioAlunos[aluno.Matricula] = aluno;
+    }
 }

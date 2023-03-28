@@ -41,3 +41,9 @@ Console.WriteLine(cSharpColecoes.EstaMatriculado(a1));
 
 var alunoMatriculado = cSharpColecoes.BuscarMatriculado(24534);
 Console.WriteLine(alunoMatriculado);
+
+Aluno a4 = new Aluno("Fábio Alves", 24534);
+cSharpColecoes.SubstituirAluno(a4);
+
+Console.WriteLine("Quem é o aluno 24534 agora? ");
+Console.WriteLine(cSharpColecoes.BuscarMatriculado(24534));
