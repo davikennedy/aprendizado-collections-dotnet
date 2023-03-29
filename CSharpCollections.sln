@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListasDeObjetos", "ListasDe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListaSomenteLeitura", "ListaSomenteLeitura\ListaSomenteLeitura.csproj", "{2EBD974D-B9DC-4656-B118-C90C20948B12}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conjuntos", "Conjuntos\Conjuntos.csproj", "{0F4C7425-B62A-44E3-A120-6255449C6328}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Conjuntos", "Conjuntos\Conjuntos.csproj", "{0F4C7425-B62A-44E3-A120-6255449C6328}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListasLigadas", "ListasLigadas\ListasLigadas.csproj", "{3266883B-9AA2-4222-A482-734B14FCF5B2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{0F4C7425-B62A-44E3-A120-6255449C6328}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F4C7425-B62A-44E3-A120-6255449C6328}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F4C7425-B62A-44E3-A120-6255449C6328}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3266883B-9AA2-4222-A482-734B14FCF5B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3266883B-9AA2-4222-A482-734B14FCF5B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3266883B-9AA2-4222-A482-734B14FCF5B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3266883B-9AA2-4222-A482-734B14FCF5B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
