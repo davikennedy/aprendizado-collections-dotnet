@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Conjuntos", "Conjuntos\Conj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListasLigadas", "ListasLigadas\ListasLigadas.csproj", "{3266883B-9AA2-4222-A482-734B14FCF5B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pilhas", "Pilhas\Pilhas.csproj", "{BDF9BA91-5930-4142-937D-C40552892A9F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pilhas", "Pilhas\Pilhas.csproj", "{BDF9BA91-5930-4142-937D-C40552892A9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Filas", "Filas\Filas.csproj", "{98E46CDF-7981-49E8-8BCD-744926493B66}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{BDF9BA91-5930-4142-937D-C40552892A9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDF9BA91-5930-4142-937D-C40552892A9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BDF9BA91-5930-4142-937D-C40552892A9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98E46CDF-7981-49E8-8BCD-744926493B66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98E46CDF-7981-49E8-8BCD-744926493B66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98E46CDF-7981-49E8-8BCD-744926493B66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98E46CDF-7981-49E8-8BCD-744926493B66}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

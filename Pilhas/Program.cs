@@ -45,6 +45,7 @@ internal class Navegador
     {
         if (historicoProximo.Any())
         {
+            historicoAnterior.Push(atual);
             atual = historicoProximo.Pop();
 
             Console.WriteLine($"Página atual: {atual}");
