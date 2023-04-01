@@ -8,15 +8,14 @@ namespace ListasDeObjetos
 {
     public class Aula : IComparable
     {
+        public string Titulo { get; set; }        
+        public int Tempo { get; set; }
+
         public Aula(string titulo, int tempo)
         {
             Titulo = titulo;
             Tempo = tempo;
         }
-
-        public string Titulo { get; set; }        
-        public int Tempo { get; set; }
-
         public int CompareTo(object obj)
         {
             Aula other = obj as Aula;

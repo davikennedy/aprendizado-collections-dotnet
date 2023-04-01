@@ -24,6 +24,8 @@ static void Imprimir(IList<Aula> aulas)
 {
     Console.Clear();
 
-    foreach(var aula in aulas) 
+    foreach(var aula in aulas)
+    {
         Console.WriteLine(aula);
+    }        
 }

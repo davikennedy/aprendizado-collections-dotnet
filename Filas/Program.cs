@@ -1,5 +1,4 @@
-﻿
-internal class Program
+﻿internal class Program
 {
     static Queue<string> pedagio = new Queue<string>();
     private static void Main(string[] args)

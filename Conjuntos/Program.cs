@@ -1,4 +1,5 @@
-﻿/* Propriedades dos Sets:
+﻿/* 
+ * Propriedades dos Sets:
  * Sets não permitem duplicidade
  * Os elementos não são mantidos em ordem específica
  */

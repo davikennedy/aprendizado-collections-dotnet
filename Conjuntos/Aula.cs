@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Conjuntos;
+﻿namespace Conjuntos;
 
 public class Aula : IComparable
 {
