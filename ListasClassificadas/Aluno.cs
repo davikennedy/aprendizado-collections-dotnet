@@ -1,4 +1,4 @@
-﻿namespace Conjuntos;
+﻿namespace ListasClassificadas;
 
 public class Aluno
 {
