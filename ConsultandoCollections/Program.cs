@@ -14,14 +14,26 @@
    new Mes("Dezembro    ", 31)
 };
 
-meses.Sort();
+/*meses.Sort();
 
 foreach (var mes in meses)
 {
     if (mes.Dias != 31) continue; 
     Console.WriteLine(mes.Nome.ToUpper());
+}*/
+
+IEnumerable<string>
+    consulta = meses
+        .Where(m => m.Dias == 31)
+        .OrderBy(m => m.Nome)
+        .Select(m => m.Nome.ToUpper());
+
+foreach (var item in consulta)
+{
+    Console.WriteLine(item);
 }
-public class Mes : IComparable
+
+public class Mes //: IComparable
 {
     public string Nome { get; private set; }
     public int Dias { get; private set; }
@@ -37,9 +49,9 @@ public class Mes : IComparable
         return $"{Nome} - {Dias}";
     }
     
-    public int CompareTo(object? obj)
+    /*public int CompareTo(object? obj)
     {
         Mes? outro = obj as Mes;
         return Nome.CompareTo(outro.Nome);
-    }
+    }*/
 }
