@@ -37,11 +37,9 @@ foreach (var item in consulta4)
     Console.WriteLine(item);
 }
 
-Console.WriteLine();
+Console.WriteLine("\nExceto: elementos de seq1 que não estão em seq2");
 
-Console.WriteLine("\nInterseção de duas sequências:");
-
-var consulta5 = seq1.Intersect(seq2);
+var consulta5 = seq1.Except(seq2);
 
 foreach (var item in consulta5)
 {
