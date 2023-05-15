@@ -16,7 +16,6 @@ internal class Navegador
     private readonly Stack<string> historicoProximo = new Stack<string>();
 
     private string atual = "vazia";
-    private string proxima = "vazia";
 
     public Navegador()
     {
