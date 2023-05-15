@@ -6,6 +6,7 @@
         Enfileirar("van");
         Enfileirar("kombi");
         Enfileirar("guincho");
+        Enfileirar("ônibus");
 
         Desenfileirar();
         Desenfileirar();

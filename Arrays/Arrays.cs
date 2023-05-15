@@ -1,5 +1,4 @@
 ﻿// Lidando com arrays
-
 string aulaIntro = "Introdução às Coleções";
 string aulaModelando = "Modelando a classe Aula";
 string aulaSets = "Trabalhando com conjuntos";
@@ -27,7 +26,7 @@ string[] copia = new string[2];
 Array.Copy(aulas, 1, copia, 0, 2);
 Imprimir(copia);
 
-string[] clone = aulas.Clone() as string[];
+string[] clone = (string[])aulas.Clone();
 Imprimir(clone);
 
 // Utilizando IndexOf para localizar um elemento no array
