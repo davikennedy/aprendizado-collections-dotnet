@@ -35,7 +35,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OperadoresLinq", "Operadore
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OperadoresDeConjuntos", "OperadoresDeConjuntos\OperadoresDeConjuntos.csproj", "{50BFE0CC-698A-49DA-B3F7-834733D4AEB2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Covariancia", "Covariancia\Covariancia.csproj", "{6A0FA44A-93E2-444F-8A82-88870CD8C8AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Covariancia", "Covariancia\Covariancia.csproj", "{6A0FA44A-93E2-444F-8A82-88870CD8C8AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictionary", "Dictionary\Dictionary.csproj", "{D568D967-66C4-42E8-8EC0-C52B8490913E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,10 @@ Global
 		{6A0FA44A-93E2-444F-8A82-88870CD8C8AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A0FA44A-93E2-444F-8A82-88870CD8C8AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A0FA44A-93E2-444F-8A82-88870CD8C8AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D568D967-66C4-42E8-8EC0-C52B8490913E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D568D967-66C4-42E8-8EC0-C52B8490913E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D568D967-66C4-42E8-8EC0-C52B8490913E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D568D967-66C4-42E8-8EC0-C52B8490913E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
