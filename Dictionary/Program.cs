@@ -10,4 +10,14 @@ foreach (var estado in estados)
     Console.WriteLine($"Chave: {estado.Key}, Valor: {estado.Value}");
 }
 
-estados.Add("BA2", "Bahia");
+string chave = "BA";
+Console.WriteLine($"Verificando o elemento: {chave}");
+
+if (estados.ContainsKey(chave))
+{
+    Console.WriteLine($"Valor existente: {chave}");
+}
+else
+{
+    Console.WriteLine($"Valor não existe. É seguro adicionar a chave: {chave}");
+}
